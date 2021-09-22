@@ -3,15 +3,15 @@ import java.io.*;
 public class book {
     public static void main(String[] args) throws IOException
     {
-       System.out.println("당신은 몇 살입니까?");
+       System.out.println("원주율의 값은 얼마입니까?");
 
        BufferedReader br = 
         new BufferedReader(new InputStreamReader(System.in));
 
         String str = br.readLine();
 
-        int num = Integer.parseInt(str);
+        double num = Double.parseDouble(str);
 
-        System.out.println("당신은 " + num + "살입니다.");
+        System.out.println("원주율의 값은 " + num + "입니다.");
     }
 }
