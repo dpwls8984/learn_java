@@ -1,8 +1,11 @@
 public class book {
     public static void main(String[] args)
     {
-        System.out.println('A');
-        System.out.println("Java 세상에 오신 것을 환영합니다!");
-        System.out.println(123);
+        int num = 3;
+        System.out.println("변수 num의 값은 " + num + "입니다.");
+        
+        num = 5;
+        System.out.println("변수 num의 값을 변경했습니다.");
+        System.out.println("변수 num의 값은 " + num + "입니다.");
     }
 }
