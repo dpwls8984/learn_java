@@ -1,6 +1,7 @@
 import java.io.*;
 
 public class book {
+    //lesson 1~3 합쳐서 작성, 그 전 것 보려면 history 보기
     public static void main(String[] args) throws IOException
     {
        System.out.println("키와 몸무게를 입력하십시오.");
