@@ -3,9 +3,17 @@ public class program {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int num = scan.nextInt();
+        int target_score = 80;
+        System.out.println("점수는? ");
+        int cp = scan.nextInt();
 
-        System.out.println("사용자 입력 변수 값은? " + num);
-        scan.close();
+        if(cp < target_score)
+        {
+            System.out.println("불합격");
+        }
+        else
+        {
+            System.out.println("합격!");
+        }
     }
 }
