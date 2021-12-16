@@ -8,7 +8,7 @@ public class program {
         
         for(int j = 0;j<num;j++)
         {
-            for(int i = 0;i<j+1;i++)
+            for(int i = 0;i<=j;i++)
                 System.out.print("*");
             System.out.println();
         }
